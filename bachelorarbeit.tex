@@ -1,0 +1,47 @@
+\documentclass[a4paper,cleardoubleempty,BCOR1cm]{scrbook}
+\input{header}
+
+\title{Thesis Template}
+\author{My Name \thanks{e-mail: my.name@uni-tuebingen.de}}
+\date{\today}
+\begin{document}
+
+\input{teaser}
+asd
+\chapter*{Abstract}
+
+
+
+\chapter*{Danksagung}
+If you have someone to Acknowledge ;)
+
+\tableofcontents
+
+%% braucht kein Mensch ...
+%\listoffigures
+%\listoftables
+
+% write content here or...
+\chapter{Introduction}
+Um eine sichere und kostengünstige Produktion zu ermöglichen, ist es wichtig, in Echtzeit Kenntnisse eine Prozessvorgangs zu erhalten. Die bisherige Qualitätskontrolle eines Prozesses erfolgt in abseits des Herstellungsprozesse nach Proben entnahme im Labor. Die Nachteile davon sind die zeitliche und räumliche Trennung des Prozesses von der Messung. So kann sich eine Probe bereits verändert haben bevor sie untersucht werden konnte und so ein falsches Bild der Prozesses ergeben. Die hier verwendete Möglichkeit der in-line Spektroskopie löst einige der oben genannten Probleme. Durch die Analyse eines geeigneten spektralen bereich, in dem die Stoffe Aktiv sind, über die man etwas erfahren möchte, kann der Status des Prozesses in Echtzeit erhalten werden. \\
+Für die Interpretation eines Spektrums, im folgenden Chemometrie genannt, bspw. im NIR/UV/VIS-Bereich ist jedoch nicht einfach und erfordert die Analyse durch Computer. Die konventionellen Methoden hierfür%%%PLS PCR Kategorie von Methoden
+sind hierfür shcon lange in Verwendung und erzeugen gute Ergebnisse. Die Fortschritte in den letzten Jahren im Bereich des Maschinellen Lernens und vor allem der Leistungsstärke der Computer, eröffnet ganz neue Möglichkeiten für die Spektroskopie. Die Möglichkeiten der unterschiedlichen Techniken möchte ich im folgenden gegenüberstellen und analysieren. 
+
+Cite like this: \cite{agarwal2011}
+\input{grundlagen}
+
+\input{Chemometrie}
+\section{Problem Statement}
+\todo{what you have to do here :)}
+
+% ... input content via other .tex files
+\input{conclusion}
+
+\appendix
+\chapter{Blub}
+
+\bibliographystyle{alpha}
+\bibliography{bibliography}
+
+\end{document}
+
